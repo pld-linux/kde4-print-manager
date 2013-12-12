@@ -2,6 +2,7 @@
 %define		_state		stable
 %define		orgname		print-manager
 %define		qtver		4.8.0
+%define		kdeworkspacever	4.11.0
 
 Summary:	K Desktop Environment - print manager
 Name:		kde4-print-manager
@@ -16,7 +17,7 @@ BuildRequires:	automoc4
 BuildRequires:	cups-devel
 BuildRequires:	kde4-kdebase-devel >= %{version}
 BuildRequires:	qt4-build
-Requires:	kde4-kdebase-workspace >= %{version}
+Requires:	kde4-kdebase-workspace >= %{kdeworkspacever}
 Obsoletes:	kde4-kdeutils-print-manager
 Obsoletes:	kde4-printer-manager
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
