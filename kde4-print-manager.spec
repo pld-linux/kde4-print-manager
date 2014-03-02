@@ -7,7 +7,7 @@
 Summary:	K Desktop Environment - print manager
 Name:		kde4-print-manager
 Version:	4.12.2
-Release:	1
+Release:	2
 License:	GPL
 Group:		X11/Applications
 Source0:	ftp://ftp.kde.org/pub/kde/%{_state}/%{version}/src/%{orgname}-%{version}.tar.xz
@@ -56,6 +56,7 @@ rm -rf $RPM_BUILD_ROOT
 %attr(755,root,root) %{_bindir}/kde-add-printer
 %attr(755,root,root) %{_bindir}/kde-print-queue
 %dir %{_libdir}/kde4/imports/org/kde/printmanager
+%{_libdir}/kde4/imports/org/kde/printmanager/qmldir
 %attr(755,root,root) %{_libdir}/kde4/imports/org/kde/printmanager/libprintmanager.so
 %attr(755,root,root) %{_libdir}/kde4/kcm_printer_manager.so
 %attr(755,root,root) %{_libdir}/kde4/kded_printmanager.so
