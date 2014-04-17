@@ -6,12 +6,12 @@
 
 Summary:	K Desktop Environment - print manager
 Name:		kde4-print-manager
-Version:	4.12.4
+Version:	4.13.0
 Release:	1
 License:	GPL
 Group:		X11/Applications
 Source0:	ftp://ftp.kde.org/pub/kde/%{_state}/%{version}/src/%{orgname}-%{version}.tar.xz
-# Source0-md5:	670985286a11f3166314ce145ac38112
+# Source0-md5:	746f9fad5bcda040975f80274bb4dd83
 URL:		http://www.kde.org/
 BuildRequires:	automoc4
 BuildRequires:	cups-devel
