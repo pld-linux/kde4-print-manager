@@ -10,7 +10,7 @@ Version:	4.14.0
 Release:	1
 License:	GPL
 Group:		X11/Applications
-Source0:	ftp://ftp.kde.org/pub/kde/%{_state}/%{version}/src/%{orgname}-%{version}.tar.xz
+Source0:	http://download.kde.org/%{_state}/%{version}/src/%{orgname}-%{version}.tar.xz
 # Source0-md5:	686b65c58f975bf68db175512fd14b31
 URL:		http://www.kde.org/
 BuildRequires:	automoc4
